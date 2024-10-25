@@ -1,0 +1,74 @@
+body {
+    background-image: url(Fisica.png);
+    background-size: 60% 100%; /* Ajusta el tamaño de la imagen al 90% del ancho del contenedor y al 60% de la altura */
+    background-position: center; /* Centra la imagen tanto horizontal como verticalmente */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 60px; /* Espacio para el navbar */
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+    width: 100vw; /* Asegura que el fondo cubra toda la anchura de la ventana */
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333333;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000000;
+    word-spacing: 5px;
+    animation: shake 2s infinite;
+    text-decoration: underline;
+    animation-timing-function: ease-in-out;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px #09090c;
+}
+
+
+.container{ 
+    margin-top: 10%;
+    background-color: #ffffffa9;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 20px;
+    background-color: #ffffff57;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+    text-shadow: 2px 2px 5px #000000;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    animation: shake 2s infinite;
+    text-decoration: underline;
+    animation-timing-function: ease-in-out;
+
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333333;
+    text-shadow: 2px 2px 5px #000000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+nav {
+    background-color: white !important;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
